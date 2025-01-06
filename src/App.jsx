@@ -10,9 +10,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
 
-  userflow.init('ct_xf5aifgzebczxjbmgrlg3cfjui')
-  userflow.identifyAnonymous({
-    website_lead: true
+
   })
 
   return (
